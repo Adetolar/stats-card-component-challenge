@@ -1,0 +1,582 @@
+body{
+    background:  hsl(233, 47%, 7%);
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+
+
+}
+
+@media only screen and (max-width: 320px) {
+    main{
+        width: 90%;
+        margin: 10px auto;
+        background: hsl(244, 38%, 16%) ;
+        height: 650px;
+        text-align: center;
+    
+        border-radius: 5px;
+    }
+    
+    #img, #cover{
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    
+    .cover2{
+        display: none;
+    }
+    
+    
+    #img{
+        
+        background: url(/images/image-header-mobile.jpg);
+        background-size: cover;
+        height: 250px;
+        
+    }
+    
+    #cover{
+        background-color: hsl(277, 64%, 61%) ;
+        opacity: 0.6;
+        height: 250px;
+    }
+    
+    
+    
+    article{
+        font-family:Inter ;
+        font-weight: 700;
+        margin-top: 30px;
+        font-size: large;
+        color: hsl(0, 0%, 100%);
+    }
+    
+    body main article span{
+        
+        color: hsl(277, 64%, 61%) ;
+    }
+    
+    aside{
+        font-family:Inter ;
+        margin-top: 20px;
+        font-size: x-small;
+        line-height: 1.7;
+        color: hsla(0, 0%, 100%, 0.75);
+        
+        
+    }
+    
+    
+    
+    section{
+        margin-top: 40px;
+    }
+    
+    section div{
+    
+        
+        margin: 20px ;
+    }
+    
+    section div p{
+        line-height: 0.5;
+        
+    }
+    
+    section p:first-of-type{
+        font-family:Inter ;
+        font-weight: 700;
+        
+    }
+    
+    section p:last-of-type{
+        text-transform: uppercase;
+        font-family:Lexend Deca;
+        font-weight: 400;
+        font-size: xx-small;
+        color: hsla(0, 0%, 100%, 0.6);
+    }
+    
+    article,aside,section{
+        margin-left:50px ;
+        margin-right:50px ;
+        text-align: center;
+    }
+    }
+
+@media only screen and (min-width: 375px) and (max-width: 425px){
+    
+    
+
+main{
+    width: 90%;
+    margin: 20px auto;
+    background: hsl(244, 38%, 16%) ;
+    height: 650px;
+    text-align: center;
+
+    border-radius: 5px;
+}
+
+#img, #cover{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+
+
+#img{
+    
+    background: url(/images/image-header-mobile.jpg);
+    background-size: cover;
+    height: 250px;
+    
+}
+
+#cover{
+    background-color: hsl(277, 64%, 61%) ;
+    opacity: 0.6;
+    height: 250px;
+}
+
+
+
+article{
+    font-family:Inter ;
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: large;
+    color: hsl(0, 0%, 100%);
+}
+
+body main article span{
+    
+    color: hsl(277, 64%, 61%) ;
+}
+
+aside{
+    font-family:Inter ;
+    margin-top: 20px;
+    font-size: x-small;
+    line-height: 1.7;
+    color: hsla(0, 0%, 100%, 0.75);
+    
+    
+}
+
+
+
+section{
+    margin-top: 30px;
+}
+
+section div{
+
+    
+    margin: 30px ;
+}
+
+section div p{
+    line-height: 0.5;
+    
+}
+
+section p:first-of-type{
+    font-family:Inter ;
+    font-weight: 700;
+    
+}
+
+section p:last-of-type{
+    text-transform: uppercase;
+    font-family:Lexend Deca;
+    font-weight: 400;
+    font-size: xx-small;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+article,aside,section{
+    margin-left:75px ;
+    margin-right:75px ;
+    text-align: center;
+}
+
+.cover2{
+    display: none;
+}
+
+}
+
+
+@media only screen  and (min-width: 768px){
+
+    main{
+        width: 70%;
+        margin: 200px auto;
+        background: hsl(244, 38%, 16%) ;
+        
+        display: grid;
+        grid-template-columns: 50% 50%;
+        height: 218px;
+        
+        
+        
+        border-radius: 5px;
+        margin-bottom: 100px;
+        position: relative;
+    }
+    
+    #img{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+      
+        
+    }
+    
+    header{
+
+        grid-column: 1/2;
+        grid-row: 1/2;
+        text-align: left;
+    
+        padding: 0px 30px;
+    
+    
+    }
+    
+    
+    #img{
+        
+        background: url(/images/image-header-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+         
+        
+    }
+    
+    .cover2{
+        background-color: hsl(277, 64%, 61%)    ;
+        opacity: 0.6;
+        width:34.5% ;
+        height: 218px;
+        position: absolute;
+        top: 200px;
+        left:383px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        
+    }
+    
+    
+    
+    article{
+        font-family:Inter ;
+        font-weight: 700;
+        margin-top: 10px;
+        font-size:small;
+        color: hsl(0, 0%, 100%);
+        
+    }
+    
+    body main article span{
+        
+        color: hsl(277, 64%, 61%) ;
+    }
+    
+    aside{
+        font-family:Inter ;
+        margin-top: 10px;
+       
+        font-size: x-small;
+        line-height: 1.0;
+        color: hsla(0, 0%, 100%, 0.75);
+        
+        
+    }
+    
+    
+    
+    section{
+        margin: 0px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        line-height: 0.5;
+        margin-top: 40px;
+    }
+    
+    
+   
+    
+    section p:first-of-type{
+        font-family:Inter ;
+        font-weight: 700;
+        font-size:smaller;
+        
+    }
+    
+    section p:last-of-type{
+        text-transform: uppercase;
+        font-family:Lexend Deca;
+        /* font-weight: 400; */
+        font-size: xx-small;
+       
+        color: hsla(0, 0%, 100%, 0.6);
+    }
+    
+
+
+
+}
+
+@media only screen  and (min-width: 1024px){
+
+
+    main{
+        width: 69.9%;
+        margin: 100px auto;
+        background: hsl(244, 38%, 16%) ;
+        
+        display: grid;
+        grid-template-columns: 50% 50%;
+        height: 290px;
+        
+        
+        
+        border-radius: 5px;
+        margin-bottom: 100px;
+        position: relative;
+    }
+    
+    #img{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+      
+        
+    }
+    
+    header{
+
+        grid-column: 1/2;
+        grid-row: 1/2;
+        text-align: left;
+    
+        padding: 10px 80px;
+    
+    
+    }
+    
+    
+    #img{
+        
+        background: url(/images/image-header-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+         
+        
+    }
+    
+    .cover2{
+        background-color: hsl(277, 64%, 61%)    ;
+        opacity: 0.6;
+        width:34.5% ;
+        height: 290px;
+        position: absolute;
+        top: 100px;
+        left:511px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        
+    }
+    
+    
+    
+    article{
+        font-family:Inter ;
+        font-weight: 700;
+        margin-top: 10px;
+        font-size: medium;
+        color: hsl(0, 0%, 100%);
+        
+    }
+    
+    body main article span{
+        
+        color: hsl(277, 64%, 61%) ;
+    }
+    
+    aside{
+        font-family:Inter ;
+        margin-top: 20px;
+       
+        font-size: small;
+        line-height: 1.5;
+        color: hsla(0, 0%, 100%, 0.75);
+        
+        
+    }
+    
+    
+    
+    section{
+        margin: 0px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        line-height: 0.5;
+        margin-top: 40px;
+    }
+    
+    
+   
+    
+    section p:first-of-type{
+        font-family:Inter ;
+        font-weight: 700;
+        font-size: small;
+        
+    }
+    
+    section p:last-of-type{
+        text-transform: uppercase;
+        font-family:Lexend Deca;
+        /* font-weight: 400; */
+        font-size: x-small;
+       
+        color: hsla(0, 0%, 100%, 0.6);
+    }
+    
+
+
+
+
+
+
+}
+
+@media only screen  and (min-width: 1440px){
+
+main{
+    width: 80%;
+    margin: 300px auto;
+    background: hsl(244, 38%, 16%) ;
+    
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 450px;
+    
+    
+    
+    border-radius: 5px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+#img{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  
+    
+}
+
+header{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: left;
+
+    padding: 40px 115px;
+
+
+}
+
+
+#img{
+    
+    background: url(/images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+    
+}
+
+.cover2{
+    background-color: hsl(277, 64%, 61%)    ;
+    opacity: 0.6;
+    width:39.7% ;
+    height: 451px;
+    position: absolute;
+    top: 300px;
+    left:720px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+
+
+article{
+    font-family:Inter ;
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: xx-large;
+    color: hsl(0, 0%, 100%);
+    
+}
+
+body main article span{
+    
+    color: hsl(277, 64%, 61%) ;
+}
+
+aside{
+    font-family:Inter ;
+    margin-top: 20px;
+   
+    font-size: small;
+    line-height: 1.7;
+    color: hsla(0, 0%, 100%, 0.75);
+    
+    
+}
+
+
+
+section{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+section div{
+
+    margin-top: 60px;
+}
+
+section div p{
+    line-height: 0.5;
+    
+}
+
+section p:first-of-type{
+    font-family:Inter ;
+    font-weight: 700;
+    font-size: x-large;
+    
+}
+
+section p:last-of-type{
+    text-transform: uppercase;
+    font-family:Lexend Deca;
+    /* font-weight: 400; */
+    font-size: small;
+   
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+
+
+}
